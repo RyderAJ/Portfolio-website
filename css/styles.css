@@ -1,0 +1,119 @@
+.top{
+  background-color: #1A1A40;
+  position: relative;
+  padding-top: 200px;
+
+
+}
+
+hr{
+  width: 5%;
+  border-style: none;
+  border-top: dotted;
+  color: #270082;
+  height: 2px;
+}
+.skill1{
+  height: 25%;
+  width: 25%;
+  margin-right: 30px;
+
+
+  float: left;
+}
+.skill2{
+  height: 25%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row{
+
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+  margin: auto;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+
+
+}
+h1{
+  margin-top: 0;
+  font-size: 5.625rem; /*1rem = 16px*/
+  color: #FA58B6;
+  font-family: 'Sacramento', cursive;
+
+}
+h2{
+  font-family: 'Merriweather', serif;
+  font-size: 2.5rem;
+  color: #FA58B6;
+  font-weight: normal;
+
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+h4{
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  margin: 0;
+  text-align: center;
+}
+.profile-img{
+  margin-top: 2%;
+  width: 13%;
+  height: 13%;
+}
+.bottom-container{
+  margin: 30px auto 30px auto;
+  background-color: #FA58B6;
+  padding: 50px;
+}
+.btn {
+  background: #d934d3;
+  background-image: -webkit-linear-gradient(top, #d934d3, #2b32b8);
+  background-image: -moz-linear-gradient(top, #d934d3, #2b32b8);
+  background-image: -ms-linear-gradient(top, #d934d3, #2b32b8);
+  background-image: -o-linear-gradient(top, #d934d3, #2b32b8);
+  background-image: linear-gradient(to bottom, #d934d3, #2b32b8);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+a{
+  margin: auto 5px;
+}
+.btn:hover {
+  background: #e1c7e8;
+  background-image: -webkit-linear-gradient(top, #e1c7e8, #b095c4);
+  background-image: -moz-linear-gradient(top, #e1c7e8, #b095c4);
+  background-image: -ms-linear-gradient(top, #e1c7e8, #b095c4);
+  background-image: -o-linear-gradient(top, #e1c7e8, #b095c4);
+  background-image: linear-gradient(to bottom, #e1c7e8, #b095c4);
+  text-decoration: none;
+}
+
+
+
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+}
+.top-cloud{
+  position: absolute;
+  top: 50px;
+  right: 300px;
+
+}
